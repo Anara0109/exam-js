@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users page</title>
+    <link rel="stylesheet" href="http://localhost:8080/static/User.css">
+</head>
+
+<body>
+    <header>
+        <div class="header flex jc-sb">
+            
+            <div class="header-nav flex jc-sb">
+                <div class="flex jc-sb">
+                    <a href="./newpage.html">Лента новостей</a>
+                    <a class="c-w" href="./User.html">Список пользователей</a>
+                </div>
+                <div class="flex jc-sb">
+                    <a href="./homePage.html">Личный кабинет</a>
+                    <button onclick="logOut()" class="header-btn">Exit</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Все пользователи</h1>
+        <div class="main-table">
+
+            <table class="users-list" id="table">
+                <tr>
+
+                    <th>email</th>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Возраст</th>
+                    <th>Подписка/Отписка</th>
+                </tr>
+
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="footer flex jc-sb">
+            <div class="footer-logo flex">
+                
+                <p class="text-logo-footer">© 2023 <br> Все права защищены.</p>
+            </div>
+            <div class="footer-nav ">
+                <a class="text-nav-footer" href="./newsPage.html">Лента новостей</a>
+                <a class="text-nav-footer c-w" href="./User.html">Список пользователей</a>
+                <a class="text-nav-footer" href="./homePage.html">Личный кабинет</a>
+            </div>
+            <div class="footer-cont flex">
+                <div class="footer-lang flex">
+                    <div class="footer-l">KAZ</div>
+                    <div class="footer-l c-w border-s">RU</div>
+                    <div class="footer-l">EN</div>
+                </div>
+                <div class="footer-block">
+
+                    <a href="https://www.instagram.com/">
+                        <img class="footer-img-cont" src="./images/instagram (1).png" alt="">
+                    </a>
+                    <a href="https://telegram.org/">
+                        <img class="footer-img-cont" src="./images/telegram.png" alt="">
+                    </a>
+                    <a href="https://twitter.com/">
+                        <img class="footer-img-cont" src="./images/twitter-sign.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./User.js"></script>
+</body>
+
+</html>

@@ -11,7 +11,7 @@ header{
     display: flex;
 }
 .jc-sb{
-    justify-content: space-between;
+    justify-content: end;
     align-items:center;
 }
 .header,
@@ -56,8 +56,8 @@ a{
 .date{
     margin-top: 20px;
     height: 100%;
-    display:table;
-    justify-content:right;
+    display:flex;
+    flex-direction: column;
     align-items: center;
 }
 .data_text{

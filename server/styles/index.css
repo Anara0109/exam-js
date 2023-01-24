@@ -3,7 +3,7 @@ body{
     background-color: whitesmoke;
 }
 .block {
-    width: 200px;
+    width: 250px;
     height: 500px;
     margin: 50px auto;
     display: flex;
@@ -11,13 +11,13 @@ body{
     align-items: center;
 }
 h2{
-    font-size: 40px;
-    color: rgb(116, 115, 115);
+    font-size: 50px;
+    color: blue;
 }
 
 .block2 {
-    width: 200px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     margin: 0 auto;
     display: flex;
     justify-content: end;
@@ -27,37 +27,37 @@ h2{
 
 
 .inf {
-    width: 193px;
-    height: 20px;
+    width: 250px;
+    height: 45px;
     margin-top: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 p {
     text-align: center;
     font-weight: bold;
-    color: rgb(116, 115, 115);
+    color: green;
 }
 
 a {
-    color: rgb(116, 115, 115);
+    color: black;
 }
 
 .btn {
-    width: 70px;
-    height: 25px;
+    width: 150px;
+    height: 50px;
     cursor: pointer;
-    background-color: rgb(116, 115, 115);
-    border-radius: 5px;
-    color: white;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    color: black
 }
 span {
-    font-size: 13px;
-    color: rgb(116, 115, 115);
+    font-size: 15px;
+    color: burlywood;
 }
 .mt-20{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .c-w{
-    color: rgb(52, 52, 52);
+    color: rgb(0, 132, 255);
 }

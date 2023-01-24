@@ -35,8 +35,7 @@ const drawUsers = async () => {
                     <td>${user.name}</td>
                     <td>${user.surname}</td>
                     <td>${user.age}</td>
-                    <td> <button onclick="followAd('${user._id}')" class="btn-main fl">Follow</button><br>
-                    <button onclick="unFollowAuthor('${user._id}')" class="btn-main unfl">Unfollow</button></td>
+                    
                 </tr>
             </div>
                

@@ -30,7 +30,7 @@ const drawNews = async () => {
                 <p class="text_post">${post.post}</p>
                 <div>
                     <div>
-                        <img class="like-img" src="./img/like (1).png" alt="">
+                        
                         ${post.like}
                         <button onclick="likePost('${post._id}')">+</button>
                         <button onclick="unlikePost('${post._id}')">-</button>

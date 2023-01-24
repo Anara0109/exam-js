@@ -1,17 +1,17 @@
 body{
     margin: 0;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(174, 255, 244);
     
 }
 header{
     height: 55px;
-    box-shadow: 5px 3px 6px gray
+    box-shadow: 5px 3px 6px blue
 }
 .flex{
     display: flex;
 }
 .jc-sb{
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 .header,
@@ -75,7 +75,7 @@ a{
 
 
 footer{
-    box-shadow: 5px -3px 6px gray;
+    box-shadow: 5px -3px 6px blue;
     margin-top: 100px;
 }
 .footer-logo{
